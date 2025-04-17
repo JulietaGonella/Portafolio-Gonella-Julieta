@@ -32,18 +32,14 @@ body {
 .texto {
   flex: 1;
   min-width: 280px;
+  text-align: center;
+  padding-top: 5rem;
 }
 
 .intro {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
   color: #d0d0d0;
-}
-
-.descripcion {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #e0e0e0;
 }
 
 .foto img {
@@ -129,4 +125,19 @@ body {
 
 .btn-secundario:hover {
   background-color: #3d4f50;
+}
+
+.iconos-tecnologias {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem; /* <-- este es el que agrega espacio abajo */
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.iconos-tecnologias img {
+  width: 130px;
+  height: 120px;
+  object-fit: contain;
 }
